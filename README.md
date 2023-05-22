@@ -4,7 +4,7 @@
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b> To find out the terminal velocity of a spherical body in water
+<b> Experiment|     <b> To determine the co-efficient of pitot tube
 
 ### About the Experiment 
 
