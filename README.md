@@ -4,18 +4,14 @@
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b> To determine the co-efficient of pitot tube
+<b> Experiment|     <b> To determine the co-efficient of pivot tube
 
 ### About the Experiment 
 
-Buoyancy: 
-When a body is immersed in a fluid either wholly of partially, it is buoyed or lifted up by a force, which is equal to the weight of fluid displaced by the body.
+It is a device used for measuring the velocity of flow at any point in a pipe. It is based on the principle that if the velocity of flow at a point becomes zero, there is increase in pressure due to the conversion of the kinetic energy into pressure energy. The pitot tube consists of a capillary tube, bend at right angle. The lower end is directed in the up stream direction. The liquid rises up in the tube due to conversion of kinetic energy into pressure energy. The velocity is determined by measuring the rise of liquid in the tube.
 
-Centre of Buoyancy: The point of application of the force of buoyancy on the body is known as the centre of buoyancy. It is always the centre of gravity of the volume of fluid displaced.
+When a pitot tube is used for measuring the velocity of flow in a pipe, the pitot tube may be inserted in the pipe. Since a pitot tube measures the stagnation pressure heat at its dipped end. The pressure head may be determined directly by conducting a differential manometer between the pitot tube and pressure taping at the pipe surface.
 
-Metacentre: Figure shows a body floating in a liquid in a state of equilibrium. When it is given a small angular displacement, it starts oscillating about some point M. This point, about which the body oscillating, it is called metacentre. 
-
-The metacentre may also be defined as a point of intersection of the axis of body passing through centre of gravity G and original centre of buoyancy B and a vertical line passing through the centre of buoyancy B1 of the tilled position of the body. 
 
 
 ### Target Audience :

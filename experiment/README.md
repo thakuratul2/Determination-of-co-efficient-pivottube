@@ -2,31 +2,15 @@ This folder has
 
 ### Aim: 
 
-To determine experimentally the metacentric height of a flat bottomed pontoon.
+To determine the local point pressure with the help of pitot tube.
 
 ### THEORY
 
 
-This experiment is based on the Archimedes principle. Archimedes’ principle is a law of physics fundamental to fluid dynamics. 
-“It states that the upward buoyant force exerted on a body immersed in a fluid, whether wholly or partially submerged, is equal to the weight of the fluid that the body displaces and acts in the upward direction at the center of mass of the displaced fluid.”
-If the weight of the fluid displaced is less than the weight of the object, the object will sink. The object will float if the weight of the fluid displaced is equal to the weight of the object. This upward force is known as thrust or buoyant force. It is a consequence of the difference in pressure the fluid exerts at different heights. The fluid pressure is exerted in all directions (Pascal’s principle) and increases with depth. There is an unbalanced upward force on the bottom of a submerged object.
-Archimedes’ principle tells us that this loss of weight is equal to the weight of the fluid, wholly or partially, displaced by the object. The corresponding equation is given by,
-Fb = ρ × g × V
-Where,
+It is a device used for measuring the velocity of flow at any point in a pipe. It is based on the principle that if the velocity of flow at a point becomes zero, there is increase in pressure due to the conversion of the kinetic energy into pressure energy. The pitot tube consists of a capillary tube, bend at right angle. The lower end is directed in the up stream direction. The liquid rises up in the tube due to conversion of kinetic energy into pressure energy. The velocity is determined by measuring the rise of liquid in the tube.
 
-Fb is the buoyant force (or thrust)
-ρ is the density of the fluid in which the object is immersed
-V is the volume of the object that is submerged in the fluid
-g is the acceleration due to gravity
-
-
-Buoyancy: When a body is immersed in a fluid either wholly of partially, it is buoyed or lifted up by a force, which is equal to the weight of fluid displaced by the body.
-
-Centre of Buoyancy: The point of application of the force of buoyancy on the body is known as the centre of buoyancy. It is always the centre of gravity of the volume of fluid displaced.
-
-Metacentre: Figure shows a body floating in a liquid in a state of equilibrium. When it is given a small angular displacement, it starts oscillating about some point M. This point, about which the body oscillating, it is called metacentre. 
-
-The metacentre may also be defined as a point of intersection of the axis of body passing through centre of gravity G and original centre of buoyancy B and a vertical line passing through the centre of buoyancy B1 of the tilled position of the body. 
+When a pitot tube is used for measuring the velocity of flow in a pipe, the pitot tube may be inserted in the pipe. Since a pitot tube measures the stagnation pressure heat at its dipped end. The pressure head may be determined directly by conducting a differential manometer between the pitot tube and pressure taping at the pipe surface.
+ 
 
 <img src="images/pic.png"/>
 
@@ -40,41 +24,39 @@ The metacentre may also be defined as a point of intersection of the axis of bod
 
 
 
-### Determination of Metacentric Height
-A known weight W1 is shifted by a distance Z across the axis of tilt. The change in momentum due to this shift is W1 Z. Let the angle of tilt be θ. The change in moment due to this tilt is equal to (Wc + W1) GM tanθ.
+### DESCRIPTION
 
-<img src="images/height.png"/>
+The apparatus consists of sump tank with centrifugal pump. A pitot tube made of copper provided in the test section made of acrylic connected to pipeline with flow control valve. The pointer gauge is provided to measure the vertical position of pitot tube in test section. A manometer is provided to determine the pressure difference. Discharge is measured with the help of measuring tank and stop watch.
 
-Wc = weight of the vessel<br>
-W1 = weight of unbalanced mass<br>
-Z = distance of the unbalanced mass from the centre of the cross bar.<br>
 
-<img src="images/res.png"/>
-
-## EXPERIMENTAL SET UP:
-
-The experimental set up consists of a pontoon (flat bottomed vessel) which is allowed of float in a M.S. tank. The weight of the vessel is kept fix here. By means of a pendulum (consisting of a weight suspended to a longer pointer), the angle of tilt θ can be measured on a graduated arc. For tilting the ship model a cross bar with four movable hangers is fixed on the model. Pendulum and graduated arc are suitably fixed at the centre of the cross bar.
 
 ### PROCEDURE
 
-1.	The relevant dimensions as area of collecting tank, mass density of water etc are provided in the data table.
-2.	The water level in the tank when pontoon is not in the tank are provided in the data table.
-
-3.	Pontoon is allowed to float in the tank. The reading of water level in the tank is recorded in table.
-
-4. Mass of pontoon can be obtained by the help of Archimedes’s principle.
-5.	Position of unbalanced mass, weight of unbalanced mass and the angle of heel can be noted down
-6. Calculate the metacentric height of the pontoon.
-7. The procedure is repeated for other positions of the unbalanced mass.
-
+1.	Close all the valves.
+2.	Fill sump tank ¾ with clean water and ensure that no foreign particles are there. 
+3.	Open by-pass valve.
+4.	Ensure that ON/OFF switch given on the panel is at OFF position.
+5.	Switch on the main power supply and then switch ON the pump.
+6.	Open flow control valve and allow water to flow through test section by partially closing valve.
+7.	Open the air release valve provided on the manometer, slowly to release the air from manometer.
+8.	When there is no air in the manometer, close air release valve.
+9.	Set the position of pitot tube at the centre of the test section by adjusting the pointer to zero by knob provided.
+10.	Adjust water flow rate with the help of control valve and by pass valve.
+11.	Record the manometer reading.
+12.	Measure the flow of water, discharged, using stop watch and measuring tank.
+13.	Repeat the experiment for different flow rates of water by operating control valve and by-pass valve.
+14.	Record the manometer reading for different position of pitot tube at particular discharge for determination of velocity profile.
 
 
 ### RESULTS
 
-The metacentric height of a flat bottom pontoon =
+Coefficient of discharge of pitot tube, Cv  =
 
 ### PRECAUTIONS
 
-1.	Apparatus should be in leveled conditions.
-2.	Reading must be taken in steady condition of water.
-3.	Unbalanced mass should be measured by taking care that water disturbance should be minimum.
+1.	1.	Never run the apparatus if power supply is less than 180 volts and above 230 volts.
+2.	Always use clean water.
+3.	To prevent clogging of moving parts, run pump at least once in a fortnight.
+4.	Drain the apparatus completely after experimentation.
+5.	Always keep apparatus free from dust.
+
