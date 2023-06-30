@@ -15,6 +15,7 @@ function changeImage() {
     setTimeout(function(){
       image.src = 'images/lab.png';
       image.alt = 'Normal Image';
+      
     },6890);
     
   });
