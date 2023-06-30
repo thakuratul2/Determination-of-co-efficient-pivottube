@@ -2,7 +2,7 @@
     "version": 2.0,
     "questions": [
       {
-        "question": "The metacentric height of a floating body is?",
+        "question": "Consider the following statements",
         "answers": {
           "a": "The distance between metacentre and centre of buoyancy.",
           "b": "The distance between centre of buoyancy and centre of gravity.",
@@ -14,55 +14,55 @@
         "difficulty": "beginner"
       },
       {
-        "question": "Which of the following is not a term used for equilibrium of floating and submerged bodies?",
+        "question": "A pitot static tube having coefficient of velocity 0.98, measures velocities of water in a pipe. The stagnation pressure recorded is 3 m and static pressure 2 m. The actual velocity in pipe is?",
         "answers": {
-          "a": "Centre of gravity",
-          "b": "Centre of buoyancy",
-          "c": "Momentum point",
-          "d": "Metacentre"
+          "a": "4.341 m/s",
+          "b": "4.429 m/s",
+          "c": "zero",
+          "d": "4.431 m/s"
         },
        
-        "correctAnswer": "c",
+        "correctAnswer": "a",
         "difficulty": "beginner"
       },
       {
-        "question": "A piece of metal of specific gravity 3.4 floats in mercury of a specific gravity 13.6. What fraction of its volume is under Mercury?",
+        "question": "Bernoulli’s equation is applied to?",
         "answers":{
-          "a": "0.5",
-          "b": "Full",
-          "c": "0.25",
-          "d": "0.75"
+          "a": "Pitot tube",
+          "b": "Venturimeter",
+          "c": "Orifice meter",
+          "d": "All of three mentioned here"
         },
-        "correctAnswer": "c",
+        "correctAnswer": "d",
         "difficulty":"beginner"
       },
       {
-        "question": "When a body floating in a liquid is displayed slightly it oscillates about __________.",
+        "question": "A pitot static tube is used to measure the velocity of water in a pipe. The stagnation pressure head is 6 m and static pressure head is 5 m. Calculate the velocity of flow assuming the coefficient of tube equal to 0.98.",
         "answers":{
-          "a": "Centre of gravity of body.",
-          "b": "Centre of pressure",
-          "c": "Metacentre",
-          "d": "None of the above"
+          "a": "8.92 m/s",
+          "b": "5.09 m/s",
+          "c": "4.34 m/s",
+          "d": "12.9 m/s"
         },
         "correctAnswer":"c",
         "difficulty":"beginner"
       },{
-        "question": "Which of the following conditions is used to determine the stable equilibrium of all partially submerged floating bodies?",
+        "question": "A pitot static tube is used to measure the velocity of water in a pipe. The stagnation pressure head is 6 m and static pressure head is 5 m. Calculate the velocity of flow assuming the coefficient of tube equal to 0.98.",
         "answers":{
-          "a":"Centre of the AN buoyancy must be above the centre of gravity.",
-          "b":"Centre of buoyancy must be below the centre of gravity",
-          "c": "Metacentre must be at the higher level than the centre of gravity",
-          "d": "Metalcentre must be at a lower level than the centre of gravity."
+          "a":"8.92 m/s",
+          "b":"5.09 m/s",
+          "c": "4.34 m/s",
+          "d": "12.9 m/s"
         },
         "correctAnswer":"c",
         "difficulty":"beginner"
       },
       {
-        "question":"A body of specific weight W1 floats on a liquid of specific weight W2? Then the ratio of the volume of the object above the liquid to its volume is",
+        "question":"In a pitot tube, the kinetic energy is converted into _________",
         "answers":{
-          "a": "(W2 - W1)/W2",
-          "b": "W2/(W2 - W1)",
-          "c": "(W2 - W1 )/ W1",
+          "a": "potential energy",
+          "b": "total energy",
+          "c": "pressure energy",
           "d":"W1/( W2- W1)"
         },
         "correctAnswer":"a",
