@@ -63,40 +63,48 @@
           "a": "potential energy",
           "b": "total energy",
           "c": "pressure energy",
-          "d":"W1/( W2- W1)"
-        },
-        "correctAnswer":"a",
-        "difficulty":"beginner"
-      },
-      {
-        "question":"A piece of metal of specific gravity 7 floats in Mercury of a specific gravity 13.6. What fraction of its volume is under Mercury?",
-        "answers":{
-          "a": "0.5",
-          "b": "0.4",
-          "c":"0.515",
-          "d":"0.2"
+          "d":"internal energy"
         },
         "correctAnswer":"c",
         "difficulty":"beginner"
       },
       {
-        "question": "Metacentric height is the distance between",
+        "question":"The lower end of the pitot tube is bet at an angle of ___________?",
         "answers":{
-          "a":"Water surface and centre of pressure",
-          "b": "Meta centre and centre of gravity",
-          "c":"Metacentre and centre of buoyancy.",
-          "d": "Metacentre and water surface"
+          "a": "120 degrees",
+          "b": "360 degrees",
+          "c":"90 degrees",
+          "d":"45 degrees"
         },
-        "correctAnswer":"b",
+        "correctAnswer":"c",
         "difficulty":"beginner"
       },
       {
-        "question":"For the stability of a floating body the",
+        "question": "The errors generated in the pitot tube due to the location are called __________",
         "answers":{
-          "a":"Centre of buoyancy must coincide with the centre of gravity",
-          "b":"Centre of buoyancy must be above the centre of gravity",
-          "c":"Centre of gravity must be above the centre of buoyancy",
-          "d": "Metacentre must be above the centre of gravity"
+          "a":"position errors",
+          "b": "normal errors",
+          "c":"negligible errors",
+          "d": "positive errors"
+        },
+        "correctAnswer":"a",
+        "difficulty":"beginner"
+      },
+      {
+        "question":"When an aircraft is grounded, the pitot static tube is generally covered.",
+        "answers":{
+          "a":"True",
+          "b":"False"
+        },
+        "correctAnswer":"a",
+        "difficulty":"beginner"
+      },{
+        "question":"The pressure measured relative to vacuum is ______",
+        "answers":{
+          "a":"total pressure",
+          "b":"static pressure",
+          "c": "dynamic pressure",
+          "d": "absolute pressure"
         },
         "correctAnswer":"d",
         "difficulty":"beginner"
