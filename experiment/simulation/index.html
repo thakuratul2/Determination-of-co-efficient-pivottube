@@ -10,15 +10,148 @@
 <body>
   <div class="container">
     <h2 class="heading">
-      Experiment : Pivot
+      Experiment : Pitot
     </h2>
 <div class="struct">
   <img src="images/initial.png" alt="initial 1" width="600"  id="gif_test">
   <button id="motbut" class="valve" onclick="changeImage()"></button>
-
+  <p class="para">Click to <br>start motor</p>
+  <p class="para2">Height of pitot <br> tube (H1)</p>
+  <p class="para3">H2</p>
+  <img src="images/arrow.png" alt="" class="arrow">
 </div>
   </div>
-  
+  <center>
+    <button class="tab-button" id="button2" onclick="datasheet1()" disabled >Record</button>
+    <!-- <button class="tab-button" onclick="tableSecond()">Record</button> -->
+  </center>
+  <div id="table">
+   
+    <h2>Data Sheet</h2>
+    <h3 style="margin-left:10%;">Area of measuring tank A = 0.002 m<sup>2</sup></h3>
+    <h3 style="margin-left:10%; ">Diameter of pipe d = 0.02 m</h3>
+    <h3 style="margin-left:10%; ">R1 = 1.57 m</h3>
+    <h3 style="margin-left:10%; ">R2 = 2.24 m</h3>
+    
+      
+      <h3 style="margin:2% 0 0 10% ; font-size:25px; color:rgb(4, 0, 128); ">Formulae:</h3><br>
+      <h3 style="margin-left:10%; ">R=(R<sub>1</sub>-R<sub>2</sub>)m</h3><br>
+      <h3 style="margin-left:10%; ">Velocity Profile Q<sub>a</sub>=(A*R)/t m<sup>3</sup>/sec</h3><br>
+      <h3 style="margin-left:10%; ">a=&#960; d<sup>2</sup>/4</h3><br>
+      <h3 style="margin-left:10%; ">V<sub>measured</sub>=Q/a m/sec</h3><br>
+      <h3 style="margin-left:10%; ">V<sub>pitot</sub>=&radic;2gh</h3><br>
+      <h3 style="margin-left:10%; ">Coefiicient of Velocity C<sub>v</sub>=V<sub>measured</sub>/V<sub>pitot</sub></h3><br>
+      <h2 style="margin-left:10%; margin-bottom:2%;">For velocity profile:</h2>
+    <table id="tab">
+      
+      <tr>
+        
+        <th rowspan="2" >SNo.</th>
+        <th  colspan="3">Manometer Reading</th>
+        <!--<th colspan="4">Discharge Measurement reading</th>-->
+        <th rowspan="2">time (t sec)</th>
+        
+        <th rowspan="2" >Velocity Profile<br>(Q m<sup>3</sup>/sec)</th>
+       
+
+
+      </tr>
+     <tr>
+         
+      <th>H1 m</th>
+      <th>H2 m</th>
+      <th>H m (H1-H2)</th>
+        
+        
+      <!--  <th >discharge <br>Q<sub>a</sub>cm<sup>3</sup>/sec</th>-->
+        
+     </tr>
+
+      <tr>
+        <td  id="sno"></td>
+        <td  id="h1"> </td>
+        <td  id="h2"> </td>
+       
+        
+        <td  id="h"> </td>
+        <td  id="t"> </td>
+        
+       <td  id="q"><input type="text" placeholder="Enter calculated value"> </td>
+      <!-- <td  id="h"><input type="text" placeholder="Enter calculated value"> </td>
+     -->
+      </tr>
+      <tr>
+        <td  id="sno2"></td>
+        <td  id="h11"> </td>
+        <td  id="h22"> </td>
+       
+        
+        <td  id="hh"> </td>
+        <td  id="t2"> </td>
+        
+       <td  id="qq"><input type="text" placeholder="Enter calculated value"> </td>
+      <!-- <td  id="h"><input type="text" placeholder="Enter calculated value"> </td>
+     -->
+      </tr>
+     
+      </tr>
+    </table>
+
+    <br /><br />
+
+
+    <h2 style="margin-left:10%; margin-bottom:2%;">For coefficient of velocity:</h2><br>
+    
+    
+ <table id="tab">
+     
+     <tr>
+      <th  >SNo.</th>
+      <th  >H1 m</th>
+        
+        <th>H2 m</th>
+        <th>H m</th>
+        <th>time (t sec)</th>
+        <th>V<sub>pitot</sub></th>
+        <th>V<sub>measured</sub></th>
+       <th >Coefficient of velocity <br>C<sub>v</sub>m<sup>3</sup>/sec</th>
+        
+     </tr>
+
+      <tr>
+        <td  id="snoa"></td>
+        <td  id="h1a"> </td>
+        <td  id="h2a"> </td>
+       
+        
+        <td  id="ha"> </td>
+        <td  id="ta"> </td>
+        <td  id="va"> </td>
+        <td  id="vth"> </td>
+        
+        <td  id="cv"><input type="text" placeholder="Enter calculated value"> </td>
+         <!--<td  id="h"><input type="text" placeholder="Enter calculated value"> </td>
+      -->
+      </tr>
+      <tr>
+        <td  id="snob"></td>
+        <td  id="h1b"> </td>
+        <td  id="h2b"> </td>
+        <td  id="hb"> </td>
+        <td  id="tb"> </td>
+        <td  id="vaa"> </td>
+        <td  id="vthh"> </td>
+        
+        <td  id="cv2"><input type="text" placeholder="Enter calculated value"> </td>
+       <!-- <td  id="h"><input type="text" placeholder="Enter calculated value"> </td>
+      -->
+      </tr>
+
+      </tr>
+    </table>
+
+
+  </div>
   <script src="./js/main.js"></script>
 </body>
 </html>
