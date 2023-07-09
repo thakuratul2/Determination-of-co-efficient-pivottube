@@ -51,7 +51,7 @@
   background-color: rgba(255, 255, 0, 0.782);
   font-weight: bold;
   position: absolute;
-  left:200px;
+  left:188px;
   text-align: center;
 
 }
@@ -68,16 +68,31 @@
   background-color: rgba(255, 255, 0, 0.663);
   font-weight: bold;
   position: absolute;
-  right:280px;
-  top:55%;
+  right: 258px;
+  top: 45%;
+  
+}
+.para4{
+  background-color: rgba(255, 255, 0, 0.663);
+  font-weight: bold;
+  position: absolute;
+  right: 435px;
+  top: 41%;
   
 }
 .arrow{
   position: absolute;
-  height:20px;
-  width:20px;
-  right:260px;
-  top:54%;
+  height: 138px;
+  width: 33px;
+  right: 213px;
+  top: 31%;
+}
+.arrow2{
+  height: 82px;
+  width: 33px;
+  right: 397px;
+  top: 41%;
+  position: absolute;
 }
 .disabled {
     pointer-events: none;
