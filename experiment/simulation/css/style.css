@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -13,6 +12,27 @@
    
  
     color: crimson;
+}
+.instruction{
+  position: absolute;
+  height: 250px;
+  width: 270px;
+  top: 900px;
+  left: 900px;
+  border: 2px black solid;
+}
+.instruction h2{
+  text-align: center;
+  
+  font-size: 25px;
+  
+  font-weight: bold;
+  
+  text-decoration: underline;
+}
+.instruction p{
+  
+  margin-left: 15px;
 }
 #gif_test.paused {
     animation-play-state: paused;
